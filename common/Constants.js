@@ -1,0 +1,20 @@
+
+module.exports = {
+
+	CODE: {
+		SUCCESS: 200,
+		INTERNAL_ERROR: 500,
+
+		USER_NOT_FOUND: 301,
+		PASSWORD_INVALID: 302,
+		MOBILE_REGISTERED: 303,
+		SMS_CODE_INVALID: 304,
+		USER_NOT_LOGIN: 401,
+	},
+
+	INFO: {
+
+
+	}
+	
+}
