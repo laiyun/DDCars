@@ -10,7 +10,6 @@ var connection = require('express-myconnection');
 
 // var routes = require('./routes/index');
 var users = require('./routes/users');
-var uploadPictureManager = require('./routes/uploadPictureManager');
 
 app.use(logger('dev'));
 app.use(bodyParser.json({limit: '50mb'}));
@@ -68,7 +67,6 @@ app.post('/createSilder', users.createSilder); // 查询所有silder
 app.post('/deleteRemarks', users.deleteRemarks); //删除所有silder
 
 //七牛上传照片
-app.post('/uploadRawPictureToQiniu', uploadPictureManager.uploadRawPictureToQiniu);
 
 
 // catch 404 and forward to error handler

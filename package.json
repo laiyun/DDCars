@@ -22,7 +22,6 @@
     "mv": "^2.0.3",
     "mysql": "^2.5.5",
     "node-uuid": "^1.4.2",
-    "qn": "^1.0.1",
     "request": "^2.53.0",
     "sequelize": "^2.0.3",
     "serve-favicon": "~2.2.0"},
